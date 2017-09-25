@@ -1,0 +1,9 @@
+.customImage img {
+  display: block;
+}
+.customcard {
+  padding: 10px 16px;
+}
+.customcard p {
+  color: #999;
+}
