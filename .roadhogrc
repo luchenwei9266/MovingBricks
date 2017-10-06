@@ -4,6 +4,13 @@
     "transform-runtime",
     ["import", { "libraryName": "antd", "style": true }]
   ],
+  "proxy": {
+    "/api": {
+      "target": "http://pit2.leanapp.cn/",
+      "changeOrigin": true,
+      "pathRewrite": { "^/api" : "" }
+    }
+  },
   "env": {
     "development": {
       "extraBabelPlugins": [
